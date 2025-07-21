@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: bot-anime
+    env: python
+    buildCommand: ""
+    startCommand: python bot_anime.py
+    autoDeploy: true
